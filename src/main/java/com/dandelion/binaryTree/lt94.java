@@ -74,10 +74,10 @@ public class lt94 {
         TreeNode treeNode4 = new TreeNode(3,null,treeNode5);
 
         TreeNode treeNode = new TreeNode(1,treeNode1,treeNode4);
-        //
+        //递归解决方案
         System.out.println("递归解决方案:\n" + new Solution_recurrence().inorderTraversal(treeNode));
         //迭代解决方案
-        System.out.println("递归解决方案:\n" + new Solution_iteration().inorderTraversal(treeNode));
+        System.out.println("迭代解决方案:\n" + new Solution_iteration().inorderTraversal(treeNode));
     }
 
 }
